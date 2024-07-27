@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+.container{
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+
+}
+.slides{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    columns: #fff;
+    scroll-snap-align: start;
+    
+}
+.slides img{
+    width: 350px;
+}
+.slides h4{
+    font-size: 50px;
+    font-weight: 600;
+    max-width: 650px;
+    text-align: center;
+    top: 0%;
+    justify-content: center;
+}
+.slides h2{
+    text-align: center;
+    padding:  0px 0px 0px;
+}
+.container a{
+    font-size: 14px;
+    color: #BF6200;
+    text-decoration: none;
+
+}
+.container a:hover{
+    text-decoration: underline;
+}
+.container a{
+    font-size: 16px;
+    color: #BF6200;
+    text-decoration: none;
+}
+.container .h4{
+    text-align: center;
+    /* margin: 0px 0; */
+    padding:  0px 0px 0px;
+}
+
+
+
+
+
+.slide1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    columns: #fff;
+    scroll-snap-align: start;
+    background:linear-gradient(454eg,#4f4080,#9553ff) ;
+}
+.slide2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    columns: #fff;
+    scroll-snap-align: start;
+    background:linear-gradient(454eg,#4f4080,#9553ff) ;
+}
+.slide3{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    columns: #fff;
+    scroll-snap-align: start;
+    background:linear-gradient(454eg,#4f4080,#9553ff) ;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="slides slide1">
+            <img src="assets/Frame 72.jpg">
+            <h4>
+            <a href ="#">SERVICES</a>
+            Explore Our Top Service Offerings</h4>
+            </div>
+            <div class="slides slide2">
+                <img src="assets/Group 37.jpg">
+                </div>
+                <div class="slides slide3">
+                    <img src="assets/Frame 16.jpg">
+                    <h3>What We Do</h3>
+                    </div>
+</body>
+</html>
+
+
+
